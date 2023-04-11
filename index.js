@@ -82,5 +82,6 @@ bot.onText(/\/c/, async (msg) => {
   }
 });
 
+console.log('trigger to build', 1)
 
 bot.on("polling_error", console.log);
